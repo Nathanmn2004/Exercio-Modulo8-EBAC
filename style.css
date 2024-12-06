@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 900px;
+    margin: 100px auto;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+
+.container h1{
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    max-width: 450px;
+    width: 100%;
+    justify-content: space-between;
+   margin-left: 20px;
+}
+
+form input{
+    height: 25px;
+}
+
+form button{
+    height: 25px;
+    background-color: rgb(54, 107, 2);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+table {
+    width: 100%;
+}
+
+
+table th, table td {
+    text-align: center; /* Uniformiza o alinhamento */
+    padding: 8px; /* Adiciona espaçamento uniforme */
+}
+
+table th{
+    border-bottom: 2px solid black;
+}
